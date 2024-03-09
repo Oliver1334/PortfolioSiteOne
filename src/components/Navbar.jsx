@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className="p-4">Contact</li>
         <li className="p-4">Github</li>
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block md:hidden'> 
         {!nav ? (
           <AiOutlineCloseCircle size="30" />
         ) : (
