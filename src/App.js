@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
+import Cards from "./components/Cards";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Feature />
+      <Cards />
     </div>
   );
 }
