@@ -20,8 +20,8 @@ const Cards = () => {
                 </div>
                 <button className='w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 bg-[#16a34a]' >Read More</button>
             </div>
-            <div className='w-full border shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Double} alt="" />
+            <div className='w-full bg-gray-100 border shadow-xl flex flex-col p-4 my-8 rounded-lg hover:scale-105 duration-300'>
+                <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="" />
                 <h2 className='text-2xl font-bold text-center py-8'>Project Card</h2>
                 <p className='text-center text-4xl font-bold' >Technology Used:</p>
                 <div className='text-center font-medium'>
@@ -32,7 +32,7 @@ const Cards = () => {
                 <button className='w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 bg-[#16a34a]' >Read More</button>
             </div>
             <div className='w-full border shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="" />
+                <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="" />
                 <h2 className='text-2xl font-bold text-center py-8'>Project Card</h2>
                 <p className='text-center text-4xl font-bold' >Technology Used:</p>
                 <div className='text-center font-medium'>
