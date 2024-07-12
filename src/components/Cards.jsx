@@ -5,7 +5,7 @@ import Triple from '../assets/triple.png'
 
 // Cards can be refactored to pass properties into a single card
 
-const Cards = () => {
+export const Cards = () => {
   return (
     <div className='w-full py-[10rem] px-4 bg-white'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
@@ -49,5 +49,4 @@ const Cards = () => {
   )
 }
 
-export default Cards 
 
