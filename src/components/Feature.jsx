@@ -1,7 +1,7 @@
 import React from "react";
 import Laptop from "../assets/laptop.jpg";
 
-const Feature = () => {
+export const Feature = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
@@ -22,4 +22,3 @@ const Feature = () => {
   );
 };
 
-export default Feature;
